@@ -4,8 +4,8 @@
 
 .vscode/
 
-src\python\*.png
-src\python\*.pfm
+src/python/*.png
+src/python/*.pfm
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
