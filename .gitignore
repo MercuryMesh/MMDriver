@@ -4,6 +4,9 @@
 
 .vscode/
 
+src\python\*.png
+src\python\*.pfm
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
