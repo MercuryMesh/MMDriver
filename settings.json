@@ -1,0 +1,38 @@
+{
+ "SimMode" : "Car", 
+ "SettingsVersion" : 1.2, 
+ "SeeDocsAt" : "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+ "LogMessagesVisible": true,
+ "CameraDefaults": {
+    "CaptureSettings": [
+        {
+            "ImageType": 7,
+            "FOV_Degrees": 160
+        }
+    ]
+ },
+ "Vehicles": {
+     "PhysXCar": {
+        "VehicleType": "PhysXCar",
+        "DefaultVehicleState": "",
+        "AutoCreate": true,
+        "PawnPath": "",
+        "EnableCollisionPassthrogh": false,
+        "EnableCollisions": true,
+         "Sensors": {
+            "Gps": {
+                "SensorType": 3,
+                "Enabled" : true
+            },
+            "Lidar": {
+                "SensorType": 6,
+                "Enabled": true,
+                "HorizontalFOVStart": -30,
+                "HorizontalFOVEnd": 30,
+                "VerticalFOVLower": -10,
+                "VerticalFOVUpper": 10
+            }
+         }
+     }
+ }
+}
